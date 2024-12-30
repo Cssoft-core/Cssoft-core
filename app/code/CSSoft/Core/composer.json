@@ -1,27 +1,16 @@
 {
-  "name": "cssoft/order-delete",
-  "description": "Magento 2 Order Delete",
+  "name": "cssoft/core",
+  "description": "cssoft Core for Magento 2",
   "type": "magento2-module",
+  "version": "2.0.0",
   "license": "proprietary",
-  "version": "2.0.3",
-  "require": {
-    "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0|~8.3.0",
-    "cssoft/core": "^2.0.0"
-  },
+ 
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "CSSoft\\OrderDelete\\": ""
+      "CSSoft\\Core\\": ""
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/Cssoft-core/Cssoft-core"
-    }
-  ]
+  }
 }
