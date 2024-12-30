@@ -1,0 +1,21 @@
+{
+  "name": "cssoft/order-delete",
+  "description": "Magento 2 Order Delete",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "version": "2.0.3",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0|~8.3.0",
+    "cssoft/core": "^2.0.4"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CSSoft\\OrderDelete\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
